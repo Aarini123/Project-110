@@ -8,10 +8,7 @@ function ModelLoaded(){
     console.log("M0delL0aded");
 }
 
-function identify(){
-    img=document.getElementById("captured_image");
-    classifier.classify(img,gotResult);
-}
+
 
 function gotResult(error,results){
     if(error){
